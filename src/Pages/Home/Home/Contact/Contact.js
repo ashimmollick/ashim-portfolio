@@ -2,11 +2,11 @@ import React from 'react';
 
 const Contact = () => {
     return (
-        <div className="hero py-8 bg-base-200">
-            <div className="hero-content  w-3/4 ">
+        <div className="hero py-8 bg-base-100" id='contact'>
+            <div className="hero-content w-full  lg:w-3/4 ">
 
                 <div className="card flex-shrink-0   w-full shadow-2xl bg-base-100">
-                    <div className="card-body px-36">
+                    <div className="card-body lg:px-36">
                         <h2 className="text-4xl text-center pb-4 font-semibold">Contact me</h2>
                         <div className="form-control">
                             <label className="label">

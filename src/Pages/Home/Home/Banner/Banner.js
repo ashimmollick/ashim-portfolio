@@ -1,13 +1,13 @@
 import React from 'react';
 import banner from '../../../../assets/ashim.png';
-import Header from '../../../Shared/Header/Header';
+
 const Banner = () => {
     return (
 
         <div>
-            <div className="hero min-h-screen bg-base-200 px-8 ">
+            <div className="hero min-h-screen bg-base-200 px-8 " id='home'>
                 <div className="hero-content flex-col lg:flex-row-reverse">
-                    <img src={banner} className="rounded-lg shadow-2xl" alt='' />
+                    <img src={banner} data-aos="fade-up-left" className="rounded-lg shadow-2xl" alt='' />
                     <div>
                         <h2 className="text-3xl font-bold">Hi, I'm Ashim Mollick</h2>
                         <h1 className="text-5xl font-bold py-3">Front-end Web Developer</h1>
